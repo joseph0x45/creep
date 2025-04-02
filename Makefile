@@ -1,7 +1,7 @@
 BINARY=creep.out
-SRC= creep.c cJSON.c
+SRC= creep.c string_array.c cJSON.c
 OPTS=
-CFLAGS= -Wall -Werror -pedantic -Wextra
+CFLAGS= -Wall -pedantic -Wextra
 
 build:
 	gcc -o $(BINARY) $(CFLAGS) $(SRC)

@@ -1,6 +1,6 @@
 {
   "cmd":"",
-  "exclude_dir":[],
+  "exclude_dir":[12],
   "include_ext":[],
   "include_dir":[],
   "include_file":[],
